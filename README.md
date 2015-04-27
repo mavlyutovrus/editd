@@ -1,4 +1,4 @@
 # editd
 Interview task
 
-To launch do "python run.py"
+To launch do "python run.py < queries.txt"
