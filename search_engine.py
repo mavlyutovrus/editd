@@ -37,7 +37,7 @@ class TSearchEngine():
             total_length = len(title_words) + len(brand_words)
             score_length = len(query_words) / float(total_length)
             
-            if len(query_words) == 1 or total_length == 2:
+            if len(query_words) == 1 or total_length <= 2:
                 ids_by_score += [(score_length, id)]
                 continue
             
